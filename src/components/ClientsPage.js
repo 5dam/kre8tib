@@ -27,23 +27,23 @@ const ClientsPage = () => {
 
         <div class="relative flex overflow-x-hidden">
             <div class="flex py-12 animate-marquee whitespace-nowrap">
-                <span class="text-4xl mx-4"><img src={client1} /></span>
-                <span class="text-4xl mx-4"><img src={client2} /></span>
-                <span class="text-4xl mx-4"><img src={client3} /></span>
-                <span class="text-4xl mx-4"><img src={client4} /></span>
-                <span class="text-4xl mx-4"><img src={client5} /></span>
-                <span class="text-4xl mx-4"><img src={client6} /></span>
-                <span class="text-4xl mx-4"><img src={client7} /></span>
+                <span class="text-4xl mx-4"><img src={client1} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client2} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client3} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client4} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client5} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client6} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client7} alt="logo"/></span>
             </div>
 
             <div class="flex absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <span class="text-4xl mx-4"><img src={client1} /></span>
-                <span class="text-4xl mx-4"><img src={client2} /></span>
-                <span class="text-4xl mx-4"><img src={client3} /></span>
-                <span class="text-4xl mx-4"><img src={client4} /></span>
-                <span class="text-4xl mx-4"><img src={client5} /></span>
-                <span class="text-4xl mx-4"><img src={client6} /></span>
-                <span class="text-4xl mx-4"><img src={client7} /></span>
+                <span class="text-4xl mx-4"><img src={client1} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client2} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client3} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client4} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client5} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client6} alt="logo"/></span>
+                <span class="text-4xl mx-4"><img src={client7} alt="logo"/></span>
             </div>
         </div>
         
