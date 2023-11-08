@@ -10,9 +10,9 @@ import Footer from './Footer'
 const Home = () => {
   return (
     <>
-        <div className='font-montserrat'>
+        <div className='font-mono'>
             <div className='bg-primary'>
-                <Header />
+                {/* <Header /> */}
                 <HeroSection />
             </div>
             <About />

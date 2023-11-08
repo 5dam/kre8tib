@@ -1,3 +1,116 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#text {
+  max-height: 100vh;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* .div1, .div2 {
+    height: 100vh;
+}
+
+.div1 {
+    background-color: pink;
+}
+
+.div2 {
+    background-color: salmon;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: fuchsia;
+}
+
+.square2 {
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 60px;
+  }
+  
+  .content-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 400px;
+    width: 50%;
+    font-size: 40px;
+    padding-left: 5em;
+  }
+  
+  .images-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .heading {
+    opacity: 0;
+    position: absolute;
+    top: 2em;
+  }
+  
+  .scroll-img {
+    width: 30vw;
+    
+    opacity: 0;
+    position: absolute;
+    top: 5em;
+  }
+  
+  .active {
+    opacity: 1;
+    
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .section1,
+    .section3 {
+      font-size: 50px;
+    }
+    
+    .content-box{
+      font-size: 40px;  
+    padding-left: 5em;
+    }
+    
+  }
+  @media only screen and (max-width: 1024px) {
+    .section1,
+    .section3 {
+      font-size: 35px;
+    }
+    .content-box{
+      font-size: 30px;  
+    padding-left: 3em;
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .section1,
+    .section3 {
+      font-size: 20px;
+    }
+    .content-box{
+      font-size: 25px;  
+    padding-left: 1em;
+    }
+  } */
