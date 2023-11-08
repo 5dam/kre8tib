@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import imageServices1 from '../assets/image-1.png'
+import imageServices2 from '../assets/image-2.png'
+import imageServices3 from '../assets/image-3.png'
+import imageServices4 from '../assets/image-4.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -87,19 +91,18 @@ const Services = () => {
               <p>Hello 1</p>
             </div>
             <div className="w-1/2 space-y-16 text-white text-2xl">
-              <div className="p-4 flex items-center">
-                <img className='h-screen img-1' src="https://cloudfour.com/examples/img-currentsrc/images/kitten-large.png" />
+              <div className="img-1 h-screen p-4 flex items-center">
+                <img src={imageServices1} />
               </div>
-              <div className="p-4 flex items-center">
-                <img className='h-screen img-1' src="https://cloudfour.com/examples/img-currentsrc/images/kitten-large.png" />
+              <div className="img-1 h-screen p-4 flex items-center">
+                <img src={imageServices2} />
               </div>
-              <div className="p-4 flex items-center">
-                <img className='img-1 h-screen' src="https://cloudfour.com/examples/img-currentsrc/images/kitten-large.png" />
+              <div className="img-1 h-screen p-4 flex items-center">
+                <img src={imageServices3} />
               </div>
-              <div className="p-4 flex items-center">
-                <img className='h-screen img-1' src="https://cloudfour.com/examples/img-currentsrc/images/kitten-large.png" />
+              <div className="img-1 h-screen p-4 flex items-center">
+                <img src={imageServices4} />
               </div>
-              
             </div>
         </div>
       </div>
