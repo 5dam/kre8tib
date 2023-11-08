@@ -12,7 +12,7 @@ const Home = () => {
     <>
         <div className='font-mono'>
             <div className='bg-primary'>
-                {/* <Header /> */}
+                <Header />
                 <HeroSection />
             </div>
             <About />

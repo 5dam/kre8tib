@@ -39,15 +39,10 @@ const Services = () => {
 
     // for swapping in the text for each section
     const arr = [
-    { text: 'Hello 1'},
-      { text: 'Hello 2'},
-      { text: 'Hello 3'},
-      { text: 'Hello 4'},
-      { text: 'Hello 5'},
-      { text: 'Hello 6'},
-      { text: 'Hello 7'},
-      { text: 'Hello 8'},
-      { text: 'Hello 9'},
+      { text: `Business Consultancy`},
+      { text: 'Web Design and Development'},
+      { text: 'Illustrations & Animations'},
+      { text: 'IT Managed Services'},
     ]
 
     boxes.forEach((box, i) => {
